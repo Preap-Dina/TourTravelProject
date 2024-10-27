@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Moulpali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moulpali&family=Siemreap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moul&display=swap');
+
+/* font class */
+.moulpali-font{
+    font-family: "Moulpali", sans-serif;
+}
+.siemreap-font{
+    font-family: "Siemreap", sans-serif;
+}
+.moul-font{
+    font-family: "Moul", serif;
+}
+
+/* hero style */
+.hero{
+    height: 100vh !important;
+}
+@media (min-width: 768px){
+    .hero{
+        height: 80vh !important;
+    }
+}
+@media (min-width: 992px){
+    .hero{
+        height: 100vh !important;
+    }
+}
+
+/* drop down */
+.list-sign{
+    width: 100px;
+    display: none;
+}
+.access:hover > .list-sign{
+    display: block;
+}
+/* .article > h1{
+    text-shadow: 0 0px 5px white;
+} */
+
+/* off cannvas responsive */
+@media (max-width: 576px){
+    .offcanvas{
+        width: 80% !important;
+    }
+}
+/* Top-Destination Style */
+.top-destination{
+    padding-bottom: 50px;
+    background-image: url(https://i.pinimg.com/originals/ca/db/f0/cadbf02093dd8e7b4c9e74107ba7b27a.jpg?fbclid=IwY2xjawF254xleHRuA2FlbQIxMAABHUe4NzfYsrorfbJXONJcD5MP07gm6fg1ac824W_ISu6ZujHc4eYLfZRd_A_aem_ukFLd2sHL73rlLQ3m0PhWA);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(104%);
+}
+/* .blur{
+    height: 40px;
+    background-color: white;
+    top: -20px;
+    filter: blur(8px);
+} */
+.lh{
+    line-height: 30px !important;
+}
+
+@media(min-width: 992px){
+    .scroll-card{
+        overflow-x: hidden !important   ;
+    }
+}
+.brightness{
+    filter: brightness(75%) !important;
+}
+.card-hover:hover{
+    box-shadow: 0 0 15px gray !important;
+}
+.card-hover:hover img{
+    transform: scale(1.5);
+}
+.transition{
+    transition: 0.3s ease-in-out;
+}
+.image-card{
+    height: 55vh;
+}
+@media (max-width: 1280px){
+    .image-card{
+        height: 40vh;
+    }
+}
+
+/* choose-us style */
+/* .choose-us{
+    background-image: url(../img/choose\ us.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(104%);
+} */
+
+/* ------------------------------ Place Style ------------------------------*/
+.place{
+    /* height: 100vh; */
+    background-image: url(../img/bg_place_style.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.blur-bg{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.724);
+}
+.image{
+    height: 240px;
+}
+.text-limit{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+            line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.text-light-2-line{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+            line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+input::placeholder{
+    color: #ccc !important;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: seagreen;
+    border-radius: 8px;
+}
